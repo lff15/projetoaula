@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+</head>
+<body>
+    <section>
+        <form action="" method="GET">
+            <fieldset>
+                <legend>Identifique-se</legend>
+                <label for="">Nome</label> <br>
+                <input type="text" name="nome"> <br><br>
+    
+                <label for="">E-mail</label><br>
+                <input type="text" name="email"><br><br>
+                <label for="">Comentario</label><br>
+                <textarea rows="5" name="comentario"></textarea><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha seu serviço</legend>
+                <label>
+                    <input type="checkbox" name="compraPassagem">
+                    Compra de passagem
+                </label><br>
+                <label>
+                    <input type="checkbox" name="reservaHospedagem">
+                    Reserva de Hospedagem
+                </label><br>
+                <label>
+                    <input type="checkbox" name="aluguelCarro">
+                    Aluguel de Carro
+                </label><br>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha forma de pagamento</legend>
+                <label>
+                    <input type="radio" name="pagamentoCartao" value="Cartão de Crédito"> Cartão de Crédito
+                </label>
+                <label>
+                    <br><input type="radio" name="pagamentoBoleto" value="Boleto"> Boleto
+                </label>
+                <label>
+                    <br><input type="radio" name="pagamentoPix" value="Pix"> Pix
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Prazo de pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista">À Vista</option>
+                    <option value="cincox">5x Sem Juros</option>
+                    <option value="dezx">10x Com Juros</option>
+                </select><br>
+                <br><input type="submit">
+            </fieldset>
+
+</body>
+</html>
